@@ -1,0 +1,29 @@
+{
+    "name": "shimojo_master",
+    "context": "..",
+    "dockerFile": "./Dockerfile",
+    "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.profiles.linux": {
+            "bash": {
+                "path": "/bin/bash"
+            }
+        },
+    },
+    "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "njpwerner.autodocstring",
+        "sanaajani.taskrunnercode",
+        "oderwat.indent-rainbow",
+        "brunnerh.file-properties-viewer",
+        "christian-kohler.path-intellisense",
+        "mosapride.zenkaku",
+    ],
+    "mounts": [
+        "source=/mnt/remote/shimojo,target=/workspace,type=bind",
+    ],
+    "runArgs": ["--gpus", "all",
+    ],
+}

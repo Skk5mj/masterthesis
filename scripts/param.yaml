@@ -1,0 +1,53 @@
+#参考
+#https://ichi.pro/kikai-gakushu-moderu-no-haipa-parame-ta-o-tsuisekisuru-hoho-wa-56051581849405
+#https://rightcode.co.jp/blog/information-technology/pytorch-yaml-optimizer-parameter-management-simple-method-complete
+project: bhq_predict
+name: bhq_predict
+
+param_set1:
+  n_epochs: 100
+  n_splits: 5
+  lr_init: 1e-3
+  weight_decay: 5e-3
+  patience: 10
+  ratio: 0.5
+  k: 7
+  lambda_p: 0.1
+  lambda_tpk: 0.1
+  batch_size: 32
+
+param_set2:
+  n_epochs: 100
+  n_splits: 5
+  lr_init: 1e-3
+  weight_decay: 5e-3
+  patience: 10
+  ratio: 0.5
+  k: 8
+  lambda_p: 0.1
+  lambda_tpk: 0.1
+  batch_size: 32
+
+param_set3:
+  n_epochs: 100
+  n_splits: 5
+  lr_init: 1e-3
+  weight_decay: 5e-3
+  patience: 10
+  ratio: 0.5
+  k: 9
+  lambda_p: 0.1
+  lambda_tpk: 0.1
+  batch_size: 32
+
+param_set4:
+  n_epochs: 100
+  n_splits: 5
+  lr_init: 1e-3
+  weight_decay: 5e-3
+  patience: 10
+  ratio: 0.5
+  k: 10
+  lambda_p: 0.1
+  lambda_tpk: 0.1
+  batch_size: 32
